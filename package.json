@@ -1,0 +1,30 @@
+{
+  "name": "qq-group-pk",
+  "description": "QQ群PK监听",
+  "license": "MIT",
+  "scripts": {
+    "run-script": "",
+    "start": "npm run clean && babel ./src --watch --out-dir ./lib",
+    "build": "npm run clean && babel ./src --out-dir ./lib",
+    "clean": "rimraf ./lib",
+    "update": "milktea update"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "md5.js": "^1.3.5",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@sweet/milktea-cli": "github:duan602728596/sweet#build-milktea-cli",
+    "@sweet/util-tools": "github:duan602728596/sweet#build-util-tools",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "rimraf": "^2.6.2"
+  }
+}
