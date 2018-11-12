@@ -8,7 +8,7 @@ import keepTwoDecimals from './utils/keepTwoDecimals';
 // 群号
 const groupNumber: number = 513416626;
 // QQ号
-const selfId: number = 3125698156;
+const selfId: number = 2951398622;
 // 端口
 const port: number = 7200;
 // 摩点id
