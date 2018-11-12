@@ -10,7 +10,7 @@ const groupNumber: number = 513416626;
 // QQ号
 const selfId: number = 2951398622;
 // 端口
-const port: number = 7200;
+const port: number = 7201;
 // 摩点id
 const id: Array<string> = ['38366', '38327', '38342', '38344', '38345', '38346', '38359', '38340'];
 
