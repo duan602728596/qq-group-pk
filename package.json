@@ -3,7 +3,7 @@
   "description": "QQ群PK监听",
   "license": "MIT",
   "scripts": {
-    "run-script": "",
+    "run-script": "node ./lib/index",
     "start": "npm run clean && babel ./src --watch --out-dir ./lib",
     "build": "npm run clean && babel ./src --out-dir ./lib",
     "clean": "rimraf ./lib",
