@@ -60,7 +60,7 @@ async function handleWsOnMessage(data: ?string): Promise<void>{
  * 孙歆文：${ keepTwoDecimals(resData[4].already_raised) }
  * 陈韫凌：${ keepTwoDecimals(resData[5].already_raised) }
  * 张羽涵：${ keepTwoDecimals(resData[6].already_raised) }
- * 臧  聪：${ keepTwoDecimals(resData[7].already_raised) }`;
+ * 臧   聪：${ keepTwoDecimals(resData[7].already_raised) }`;
 
     // 发送消息
     apiIo.send(JSON.stringify({
