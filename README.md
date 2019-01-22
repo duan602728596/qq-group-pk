@@ -1,6 +1,8 @@
 # qq-group-pk
 
-QQ群PK监听脚本。
+> QQ群PK监听脚本。 
+
+由于摩点PK的信息需要变化，且使用周期短，所以使用Node代替Nwjs或Electron搭建服务，开箱即用，便于修改。
 
 ## 使用方法
 
