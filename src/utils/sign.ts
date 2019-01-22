@@ -1,4 +1,4 @@
-import MD5 from 'md5.js';
+import * as MD5 from 'md5.js';
 
 /**
  * 摩点加密计算
